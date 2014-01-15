@@ -1,0 +1,19 @@
+mkdir Creates a new directory in your current directory (ex. mkdir movies)
+
+cd Changes directory (ex. cd /home/dracz/Documents) cd .. will take you to the parent directory
+
+ls This command will list the viewable items in the current directory.
+
+ls -l will do the same as "ls" though it will list them vertically (its for easier viewing I guess)
+
+ls -la This will list all the files including hidden files and present them as a vertical list.
+
+pwd Simply prints the working directory (The directory you're currenty in)
+
+pipes in linux means that we can run a command through another one, eks if I got alot of files in a directory I can use ls -l to list them all. If I want to list only the files containing the filename "lab" I can do "ls -l | grep lab" This will run the ls -l comman through grep who will filter and display only the files containing lab in its filename. It takes the output of the command and place it into another command.
+
+grep is a command for searching in plain text.
+
+cat will print out the text in a file, you can also chose where to display the text (ex. "cat lab1.txt > newfile.txt" This will "display" the text from "lab1.txt" and "display" it in newfile.txt). You could also do "cat > newfile" and then write what you want to be displayed in newfile (exit cat by pressing CTRL+d)
+
+
