@@ -16,4 +16,20 @@ grep is a command for searching in plain text.
 
 cat will print out the text in a file, you can also chose where to display the text (ex. "cat lab1.txt > newfile.txt" This will "display" the text from "lab1.txt" and "display" it in newfile.txt). You could also do "cat > newfile" and then write what you want to be displayed in newfile (exit cat by pressing CTRL+d)
 
+ISO-fil is a image of an optical disc (ex. Operating System, games, software and everything you could get on a CD/DVD/Blue-Ray). It's possible to create and mount an ISO image with tools that are developed for this.
 
+Distribution of an OS is basically a kernel with different packages pre built into it. A distribution is often called a distro. (ex. of a Linux distribution could be Red Hat or Debian).
+
+Formating of a storage unit means to delete everything on it and place an empty file system on it. (ex. If I format a harddrive on Windows I have to choose if I want to use NTSF or FAT32 filesystem, on Linux and especially the distro I use (Elementary OS) I use the ex4 file system.)
+
+Partitioning a storage unit and especially a hard disk drive is to split it up into multiple partitions. It is used to treat one hard drive as multiple hard drives. This means you can use different file systems on each partition. This means you could install an OS on one partition and use another partition for media files, games, documents, etc.
+
+Virtual machine (VM) refers to the use of a software that can emulates a computer, this gives you the option to install a different OS virtually instead of partitioning a disk and install the secondary OS on it (great for out a new Linux distro etc).
+
+Host and Guest OS refers to the use of VM, where the Host OS is the pre-installed OS on the machine (ex. Windows). The guest OS the one that is installed via the VM.
+
+Type 1 Hypervisor is VM that runs directly on the hosts hardware to control and manage guest OS. Type 2 is VM software run in an OS.
+
+GNU/Linux is a name that is promoted by Richard Stallman and the Free Software Movement in general. The reason for this is that GNU (Gnu's not Unix) was supposed to be a complete OS but was only missing a kernel, Linus Thorvalds developed the Linux kernel and together they are GNU/Linux. RMS is basically just wanting recognizion for his and the FSF's work.
+
+ 
