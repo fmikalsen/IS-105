@@ -1,0 +1,20 @@
+regex - this is a character sequence that forms a search pattern.
+		it can be used to search through strings for example.
+
+import - In python and other programming languages import means to
+		import another class. In LAB3 we imported the "re" class and
+		used the "findall()" method from it.
+
+scripting language - Scripts are used to automate tasks that would
+		otherwise be done by a human. It tells an existing application
+		what to do.
+
+perl -	pearl is a high-level programming language. It was developed
+		as a Unix scripting language, influenced by alot of other
+		languages, but has also been a soure of influence to some newer
+		languages.
+
+bash -	Bash is a unix shell, a command line interface. It's widely 
+		default with linux distros and OS X. Shell scripting is when
+		you create a script to run something automated without having
+		a user manually typing in command by command.

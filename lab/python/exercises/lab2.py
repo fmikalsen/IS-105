@@ -46,18 +46,9 @@ def ascii_fugl():
 #    Eksempel: bitAnd(6, 5) = 4
 #
 def bitAnd(x, y):
-  return x & y
+	return x & y
 
 # 
-#  Oppgave 3
-#    bitAnd - x&y
-#    Eksempel: bitAnd(6, 5) = 4
-
-# Isn't this the same as the first one?
-def bitAnd(x, y):
-  return 2
-
-#
 #  Oppgave 4
 #    bitXor - x^y
 #    Eksempel: bitXor(4, 5) = 1
@@ -128,14 +119,12 @@ def transferHex(string):
 	for y in x:
 		ascii2Hex(y)
 
-
-
-
 print("This is a bird")
 ascii_fugl()
-print("This is a single ascii character converted to binary")
-ascii8Bin("A")
-print("This is a string converted to binary")
-transferBin("Hi")
-print("This is a string converted to hexadecimal")
-transferHex("Hi")
+bitAnd(6, 5)
+a = raw_input("What character would you like to convert to binary? ")
+ascii8Bin(a)
+b = raw_input("What String would you like to convert? ")
+transferBin(b)
+print("This is the string converted to hexadecimal")
+transferHex(b)
