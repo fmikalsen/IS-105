@@ -121,7 +121,7 @@ def transferHex(string):
 
 print("This is a bird")
 ascii_fugl()
-bitAnd(6, 5)
+#print bitAnd(6, 5)
 a = raw_input("What character would you like to convert to binary? ")
 ascii8Bin(a)
 b = raw_input("What String would you like to convert? ")

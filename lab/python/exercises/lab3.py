@@ -84,7 +84,7 @@ def min_sys_info():
 def initialer(navn):
 	x = navn.split(" ")
 	y = [words[0] for words in x]
-	return '.'.join(y) + "."
+	return ".".join(y) + "."
 
 	# Denne funksjonen skriver ut initialene.
 	# Jeg fant kun ut hvordan jeg kunne finne plasserings nummeret
@@ -134,7 +134,7 @@ print infix_to_prefix("2 * 55")
 
 # Kalle opp din lab3_scripts() funksjon her
 print 5*"-" + " lab3_scripts() " + 5*"-"
-#lab3_scripts()
+lab3_scripts()
 
 
 
