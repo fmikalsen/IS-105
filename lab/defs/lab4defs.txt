@@ -1,0 +1,39 @@
+API	Application programming interface. An API is a set of routines,
+	protocols, and tools for building software applications.
+	If specifies how software should interact with eachother,
+	a comming type of API could be a library. You could get the
+	Google maps API to integrate maps into your software.
+
+IDE	Integrated development enviroment. This means that it usually got a
+	text editor, a compiler of some sorts and a debugger. Most IDE's also
+	got a auto complete mode for faster coding. (ex. Eclipse, Visual Studio etc.)
+
+ps	Process Status. This command will show information about the current
+	running processes, including the PID number. From here you can find
+	a certain process and use "kill <PID>" to terminate the process.
+	ex: ps -ef | grep firefox
+
+top	The top command is used to monitor processor activity in real time.
+	Personally I use 'htop' because I find it to be more interactive and
+	less painful to use.
+
+
+df	disk free. This command will tell how much disk space you have used and
+	how much you got free. At first glance i found that the '-h' (human readable)
+	option was pretty usefull.
+
+kill	The kill command is used to send a signal to a process, default is TERM
+	wich will terminate the process and "kill" it.
+
+
+netstat	Network statistics. This is used to statisticly display the connections
+	on the network, both in and out. This command is used to find problems
+	in the network and determine the amount of traffic.
+
+ifconfig is a system administration utility in Unix-like operating systems 
+	to configure, control, and query TCP/IP network interface parameters 
+	from a command line interface (CLI) or in system configuration scripts.
+	Ifconfig originally appeared in 4.2BSD as part of the BSD TCP/IP suite.
+
+who	This command will display who is using the system. I found that using the
+	'last' command will display a list of who has been using the system.
