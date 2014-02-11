@@ -1,4 +1,4 @@
 Distro:		ElementaryOS
-IDE:		Sublime Text 2/vim*/gedit
+Editors:	Sublime Text 2/vim*/gedit
 
 *Using vim through ssh when I'm not at home.

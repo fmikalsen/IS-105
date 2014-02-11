@@ -41,8 +41,8 @@ def psutils_use():
 	"""
 	# Impleementer funksjonen her
 	x = psutil.cpu_times()._fields
-	y = (tuple(psutil.cpu_times()))
-	r = zip (x, y)
+	y = psutil.cpu_times()
+	r = zip(x, y)
 	for name, value in r:
 		print("\t%s = %s") % (name, value)
 	
@@ -66,7 +66,6 @@ psutils_use()
 def print_history(proglangs):
 	# Implementer funksjonen her
 	x = sorted(proglangs, key=lambda test: test[1]) #this will sort by the second variable (year)
-	print ""
 	for i in x:
 		print("%s ble startet %s av %s.") % (i[0], i[1], i[2])
 
@@ -82,7 +81,7 @@ proglangs = [('Python', '1989', 'Guido van Rossum'),
 ('Perl', '1987' , 'Larry Wall'), 
 ('Go/golang', '2007', 'Robert Griesemer, Rob Pike, and Ken Thompson')]
 
-
+print""
 print_history(proglangs)
 
 
