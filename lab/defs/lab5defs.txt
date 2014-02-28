@@ -1,0 +1,46 @@
+----- Process states -----
+
+R:	running/runnable, the process is running or is ready to run.
+
+T:	stopped, if a running process receive a stop signal it moves to
+	the stopped state.
+
+D:	uninterruptable sleep, The process has been blocked. usually IO
+
+S:	interruptable sleep, sleeping and waiting for something to happend.
+
+Z:	Zombie, the process has been terminated but its parent processes
+	needs to read from it. Hence the name
+
+X:	Dead, a process never reach this state, as soon as it's dead 
+	it's gone.
+
+
+-----
+
+python <filnavn>.py will run that python file. Python is interpreted and
+	not compiled.
+
+javac <filnavn>.java will compile a java file and make it runable
+
+java <filnavn>.class will return an error, since you don't need to
+	specify any extensions when running a compiled java class.
+	you would write "java <filnavn> <any arguments>"
+
+gcc -o <filnavn> <filnavn>.c will compile c code into an executable file
+	the name of the executable is the first filename you enter and 
+	what code you compile from is the second filename.
+	to run the file use ./<filnavn>
+
+sleep 100 & will sleep a program for 100 seconds, & means it runs in
+	the background and 100 is the number of seconds.
+
+cat /proc/cpuinfo will list information about all the cpu cores, since
+	I got 4 cores it listed the information about 0,1,2 and 3
+
+-----
+
+Multiprogramming is when the computer is running several programs at
+the same time on a single processor. The OS handles which processes
+are at what state and the user will experiance that he run several
+programs at the same time (which is not true).
